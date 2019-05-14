@@ -1,1 +1,59 @@
-.conversor[data-v-53210e3e]{padding:20px;max-width:300px;-webkit-box-shadow:0 4px 8px 0 rgba(0,0,.2);box-shadow:0 4px 8px 0 rgba(0,0,.2)}@media (max-width:560px){#app[data-v-53210e3e]{margin:auto;max-width:900px;font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}.conversor[data-v-53210e3e]{margin:auto;margin-top:20px;padding:10px;max-width:500px;-webkit-box-shadow:0 4px 8px 0 rgba(0,0,.2);box-shadow:0 4px 8px 0 rgba(0,0,.2);-ms-flex-pack:distribute;justify-content:space-around}}#app{margin:auto;max-width:900px;font-family:Avenir,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center;color:#2c3e50;margin-top:60px}.linha{margin-top:40px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}
+.conversor
+/*[data-v-53210e3e]*/{
+    padding:30px;
+    max-width:300px;
+    -webkit-box-shadow:0 4px 8px 0 rgba(0,0,.2);
+    box-shadow:0 4px 8px 0 rgba(0,0,.2)
+}
+/*.conversor
+[data-v-53210e3e]{
+    margin-top:20px;
+    padding:7px;
+    max-width:158px; 
+    -webkit-box-shadow:0 4px 8px 0 rgba(0,0,.2);
+    box-shadow:0 4px 8px 0 rgba(0,0,.2);
+    -ms-flex-pack:distribute;
+    justify-content:space-around}
+*/
+
+#app {
+    margin:auto;
+    max-width:700%;
+    font-family:Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-align:center;
+    color:#2c3e50;
+    margin-top:0%;
+}
+
+.linha{
+    margin-top:40px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack:distribute;
+    justify-content:space-around
+}
+
+
+@media (max-width:700px){
+.conversor
+{
+    margin:auto;
+    padding: 5%;
+    max-width:49%;
+
+}
+.linha{
+    margin-top:30px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack:distribute;
+    justify-content:space-around
+}
+
+
+
+}
